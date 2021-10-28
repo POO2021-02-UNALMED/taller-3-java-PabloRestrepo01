@@ -7,7 +7,7 @@ public class TV {
 	boolean estado;
 	int volumen;
 	Control control;
-	static int numTV;
+	static int numTV = 0;
 	
 	public TV(Marca marca, boolean estado) {
 		numTV++;
