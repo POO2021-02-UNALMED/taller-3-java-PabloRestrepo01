@@ -10,6 +10,7 @@ public class TV {
 	static int numTV;
 	
 	public TV(Marca marca, boolean estado) {
+		numTV++;
 		this.marca = marca;
 		this.estado = estado;
 		canal = 1;
